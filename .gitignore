@@ -1,0 +1,13 @@
+# Terraform provider binaries and state cache
+.terraform/
+.terraform.lock.hcl
+
+# State files (contain sensitive data — never commit these)
+terraform.tfstate
+terraform.tfstate.backup
+
+# Variable files (may contain project IDs or secrets)
+*.auto.tfvars
+
+# OS junk
+.DS_Store
