@@ -1,3 +1,9 @@
+```
+#After cloning this repo, please run ::
+git fetch origin
+git reset --hard origin/main
+```
+
 # ELK + Kafka Cluster on GCP — Deployment Guide
 
 ## Architecture
